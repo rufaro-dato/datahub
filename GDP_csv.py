@@ -4,18 +4,18 @@ from dataflows import sort_rows, filter_rows, find_replace, delete_fields, set_t
 
 
 
-def GDP_xlsx():
+def GDP_csv():
     flow = Flow(
         # Load inputs
-        load('GDP.xlsx', format='xlsx', ),
+        load('GDP.csv', format='csv', ),
         # Process them (if necessary)
         # Save the results
-        add_metadata(name='GDP_xlsx', title='''GDP.xlsx'''),
+        add_metadata(name='GDP_csv', title='''GDP.csv'''),
         printer(),
-        dump_to_path('GDP_xlsx'),
+        dump_to_path('GDP_csv'),
     )
     flow.process()
 
 
 if __name__ == '__main__':
-    GDP_xlsx()
+    GDP_csv()

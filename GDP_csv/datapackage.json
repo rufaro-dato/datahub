@@ -1,0 +1,320 @@
+{
+  "name": "gdp_csv",
+  "title": "Gdp_csv",
+  "resources": [
+    {
+      "path": "GDP.csv",
+      "pathType": "local",
+      "name": "gdp",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "UTF-8",
+      "dialect": {
+        "delimiter": ",",
+        "quoteChar": "\""
+      },
+      "schema": {
+        "fields": [
+          {
+            "name": "CountryID",
+            "type": "integer",
+            "format": "default"
+          },
+          {
+            "name": "Country",
+            "type": "string",
+            "format": "default"
+          },
+          {
+            "name": "IndicatorName",
+            "type": "string",
+            "format": "default"
+          },
+          {
+            "name": "1970",
+            "type": "string",
+            "format": "default"
+          },
+          {
+            "name": "1971",
+            "type": "string",
+            "format": "default"
+          },
+          {
+            "name": "1972",
+            "type": "string",
+            "format": "default"
+          },
+          {
+            "name": "1973",
+            "type": "string",
+            "format": "default"
+          },
+          {
+            "name": "1974",
+            "type": "string",
+            "format": "default"
+          },
+          {
+            "name": "1975",
+            "type": "string",
+            "format": "default"
+          },
+          {
+            "name": "1976",
+            "type": "string",
+            "format": "default"
+          },
+          {
+            "name": "1977",
+            "type": "string",
+            "format": "default"
+          },
+          {
+            "name": "1978",
+            "type": "string",
+            "format": "default"
+          },
+          {
+            "name": "1979",
+            "type": "string",
+            "format": "default"
+          },
+          {
+            "name": "1980",
+            "type": "string",
+            "format": "default"
+          },
+          {
+            "name": "1981",
+            "type": "string",
+            "format": "default"
+          },
+          {
+            "name": "1982",
+            "type": "string",
+            "format": "default"
+          },
+          {
+            "name": "1983",
+            "type": "string",
+            "format": "default"
+          },
+          {
+            "name": "1984",
+            "type": "string",
+            "format": "default"
+          },
+          {
+            "name": "1985",
+            "type": "string",
+            "format": "default"
+          },
+          {
+            "name": "1986",
+            "type": "string",
+            "format": "default"
+          },
+          {
+            "name": "1987",
+            "type": "string",
+            "format": "default"
+          },
+          {
+            "name": "1988",
+            "type": "string",
+            "format": "default"
+          },
+          {
+            "name": "1989",
+            "type": "string",
+            "format": "default"
+          },
+          {
+            "name": "1990",
+            "type": "string",
+            "format": "default"
+          },
+          {
+            "name": "1991",
+            "type": "string",
+            "format": "default"
+          },
+          {
+            "name": "1992",
+            "type": "string",
+            "format": "default"
+          },
+          {
+            "name": "1993",
+            "type": "string",
+            "format": "default"
+          },
+          {
+            "name": "1994",
+            "type": "string",
+            "format": "default"
+          },
+          {
+            "name": "1995",
+            "type": "string",
+            "format": "default"
+          },
+          {
+            "name": "1996",
+            "type": "string",
+            "format": "default"
+          },
+          {
+            "name": "1997",
+            "type": "string",
+            "format": "default"
+          },
+          {
+            "name": "1998",
+            "type": "string",
+            "format": "default"
+          },
+          {
+            "name": "1999",
+            "type": "string",
+            "format": "default"
+          },
+          {
+            "name": "2000",
+            "type": "string",
+            "format": "default"
+          },
+          {
+            "name": "2001",
+            "type": "string",
+            "format": "default"
+          },
+          {
+            "name": "2002",
+            "type": "string",
+            "format": "default"
+          },
+          {
+            "name": "2003",
+            "type": "string",
+            "format": "default"
+          },
+          {
+            "name": "2004",
+            "type": "string",
+            "format": "default"
+          },
+          {
+            "name": "2005",
+            "type": "string",
+            "format": "default"
+          },
+          {
+            "name": "2006",
+            "type": "string",
+            "format": "default"
+          },
+          {
+            "name": "2007",
+            "type": "string",
+            "format": "default"
+          },
+          {
+            "name": "2008",
+            "type": "string",
+            "format": "default"
+          },
+          {
+            "name": "2009",
+            "type": "string",
+            "format": "default"
+          },
+          {
+            "name": "2010",
+            "type": "string",
+            "format": "default"
+          },
+          {
+            "name": "2011",
+            "type": "string",
+            "format": "default"
+          },
+          {
+            "name": "2012",
+            "type": "string",
+            "format": "default"
+          },
+          {
+            "name": "2013",
+            "type": "string",
+            "format": "default"
+          },
+          {
+            "name": "2014",
+            "type": "string",
+            "format": "default"
+          },
+          {
+            "name": "2015",
+            "type": "string",
+            "format": "default"
+          },
+          {
+            "name": "2016",
+            "type": "string",
+            "format": "default"
+          },
+          {
+            "name": "2017",
+            "type": "string",
+            "format": "default"
+          },
+          {
+            "name": "2018",
+            "type": "string",
+            "format": "default"
+          },
+          {
+            "name": "2019",
+            "type": "string",
+            "format": "default"
+          },
+          {
+            "name": "2020",
+            "type": "string",
+            "format": "default"
+          },
+          {
+            "name": "2021",
+            "type": "string",
+            "format": "default"
+          }
+        ],
+        "missingValues": [
+          ""
+        ]
+      }
+    }
+  ],
+  "views": [
+    {
+      "name": "simple-view-bar",
+      "title": "simple-views-bar",
+      "resources": ["vix-daily"],
+      "specType": "simple",
+      "spec": {
+        "type": "bar",
+        "group": "Country",
+        "series": ["1970", "1980", "1990", "2000","2010","2020"]
+      }
+    }
+  ],
+  "licenses": [
+    {
+      "name": "ODC-PDDL",
+      "path": "http://opendatacommons.org/licenses/pddl/",
+      "title": "Open Data Commons Public Domain Dedication and License"
+    }
+  ]
+}
